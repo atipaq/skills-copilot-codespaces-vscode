@@ -58,4 +58,4 @@ app.get('/comments/:id/:name/:message', (req, res) => {
   res.send(`Comment ${req.params.id} by ${req.params.name}: ${req.params.message}`);
 });
 // 15. Create a route
-app.get('/comments/:id/:name/:message', (req, res) => {
+app.get('/comments/:id/:name/:message', (req, res) => {});
